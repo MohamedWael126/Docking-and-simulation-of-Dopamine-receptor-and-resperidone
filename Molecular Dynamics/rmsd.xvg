@@ -1,0 +1,20 @@
+# This file was created Sat Aug 26 07:36:27 2023
+# Created by:
+#                       :-) GROMACS - gmx rms, 2023.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/wael/Wael/Simulations/Molecular Dynamics
+# Command line:
+#   gmx rms -s MD.tpr -f MD_center.xtc -o rmsd.xvg
+# gmx rms is part of G R O M A C S:
+#
+# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+#
+@    title "RMSD"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "RMSD (nm)"
+@TYPE xy
+@ subtitle "LIG after lsq fit to Protein"
+   0.0000000    0.0004887
+  10.0000000    0.0761345

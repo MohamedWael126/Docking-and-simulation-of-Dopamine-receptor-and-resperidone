@@ -1,0 +1,27 @@
+# This file was created Sat Aug 26 07:38:14 2023
+# Created by:
+#                      :-) GROMACS - gmx hbond, 2023.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin/gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /home/wael/Wael/Simulations/Molecular Dynamics
+# Command line:
+#   gmx hbond -s MD.tpr -f MD_center.xtc -num hb.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# Gyas ROwers Mature At Cryogenic Speed
+#
+@    title "Hydrogen Bonds"
+@    xaxis  label "Time (ps)"
+@    yaxis  label "Number"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Hydrogen bonds"
+@ s1 legend "Pairs within 0.35 nm"
+         0           1           3
+        10           1           1
